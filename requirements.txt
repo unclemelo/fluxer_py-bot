@@ -1,4 +1,3 @@
 fluxer.py
 python-dotenv
-requests
 colorama
