@@ -58,6 +58,49 @@ class Help(Cog):
 
         await ctx.send(embed=embed)
 
+    @Cog.command(name="repo")
+    async def repo_command(self, ctx):
+        embed = fluxer.Embed(
+            title="📦 Fluxer.py Repository",
+            description="Check out the official fluxer.py repository on GitHub!",
+            color=0x1f1f1f
+        )
+        embed.add_field(
+            name="Repository Link",
+            value="[fluxer.py on GitHub](https://github.com/akarealemil/fluxer.py)",
+            inline=False
+        )
+        embed.add_field(
+            name="What is fluxer.py?",
+            value="A modern, easy-to-use Python library for building bots on the Fluxer platform.",
+            inline=False
+        )
+        await ctx.send(embed=embed)
+
+    @Cog.command(name="info")
+    async def info_command(self, ctx):
+        embed = fluxer.Embed(
+            title="About Fluxer.py",
+            description="Fluxer.py is a powerful and user-friendly library for Fluxer bot development.",
+            color=0x00a8ff
+        )
+        embed.add_field(
+            name="Key Features",
+            value="• Easy-to-use command system\n• Cog-based module architecture\n• Event handling\n• Embed support\n• Error handling\n• Async/await support",
+            inline=False
+        )
+        embed.add_field(
+            name="Perfect For",
+            value="Building educational bots, custom command systems, and automation tools on the Fluxer platform.",
+            inline=False
+        )
+        embed.add_field(
+            name="Get Started",
+            value="Use **!setup** to learn how to create your first bot!",
+            inline=False
+        )
+        await ctx.send(embed=embed)
+
 
 async def setup(bot):
     await bot.add_cog(Help(bot))
