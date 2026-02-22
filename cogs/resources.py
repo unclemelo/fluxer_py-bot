@@ -71,7 +71,7 @@ class Resources(Cog):
     @Cog.command(name="tutorial")
     async def tutorial_command(self, ctx):
         embed = fluxer.Embed(
-            title="🎓 Step-by-Step Tutorials",
+            title="Step-by-Step Tutorials",
             description="Guided tutorials to help you learn fluxer.py development",
             color=0xff9900
         )

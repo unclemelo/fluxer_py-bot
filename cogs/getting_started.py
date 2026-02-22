@@ -71,7 +71,7 @@ class GettingStarted(Cog):
     @Cog.command(name="config")
     async def config_command(self, ctx):
         embed = fluxer.Embed(
-            title="⚙️ Configuration Guide",
+            title="Configuration Guide",
             description="How to configure your fluxer.py bot",
             color=0x9500ff
         )

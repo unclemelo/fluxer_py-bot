@@ -35,7 +35,7 @@ class Features(Cog):
         
         # Send example embed
         example = fluxer.Embed(
-            title="📌 Example Embed",
+            title="Example Embed",
             description="This is what an embed looks like!",
             color=0x00ff00
         )

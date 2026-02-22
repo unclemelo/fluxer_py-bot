@@ -66,7 +66,7 @@ class CoreConcepts(Cog):
     @Cog.command(name="events")
     async def events_command(self, ctx):
         embed = fluxer.Embed(
-            title="📡 Bot Events",
+            title="Bot Events",
             description="Respond to events that happen on the Fluxer platform",
             color=0xf8b88b
         )
