@@ -28,7 +28,7 @@ This is a modular Fluxer bot that leverages the fluxer.py library to provide a f
 
 1. **Clone or download this repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/unclemelo/fluxer_py-bot
    cd fluxer_py-bot
    ```
 
