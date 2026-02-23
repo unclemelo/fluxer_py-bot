@@ -29,7 +29,7 @@ class Resources(Cog):
         )
         embed.add_field(
             name="Community Help",
-            value="• GitHub Issues - Report bugs or ask questions\n• Discord Communities - Connect with other bot developers\n• Stack Overflow - Search for solutions",
+            value="• GitHub Issues - Report bugs or ask questions\n• Fluxer Communities - Connect with other bot developers\n• Stack Overflow - Search for solutions",
             inline=False
         )
         await ctx.send(embed=embed)
